@@ -6,7 +6,7 @@ from PIL import Image
 
 def on_error(msg) :
     print(msg, file=sys.stderr)
-    print("example: python3 crop_images.py file test.png left 4 top 4 xs 8 ys 8 cropw 48 croph 48 outdir ./", file=sys.stderr)
+    print("example:\npython3 crop_images.py file test.png left 4 top 4 xs 8 ys 8 cropw 48 croph 48 outdir ./", file=sys.stderr)
     sys.exit(-1)
 
 params = {}
